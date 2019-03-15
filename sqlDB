@@ -1,0 +1,10 @@
+CREATE TABLE [dbo].[Directors] (
+    [FirstName]       NVARCHAR (100) NULL,
+    [MiddleName]      NVARCHAR (100) NULL,
+    [LastName]        NVARCHAR (100) NULL,
+    [Genres]          NVARCHAR (100) NULL,
+    [Movies Directed] NVARCHAR (100) NULL,
+    [Id]              INT            NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
